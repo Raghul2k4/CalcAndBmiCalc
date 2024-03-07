@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#template
+{
+    height:470px;
+    width: 300px;
+    border:2px solid black;
+    border-radius:30px;
+    position:absolute;
+    right: 50%;
+    top: 12%;
+    background-color:black;
+    display: none;
+}
+#ip
+{
+    position: inherit;
+    top: 4%;
+    left: 4%;
+    width:85%;
+    height:13%;
+    background-color: rgb(223, 223, 54);
+    font-size: 160%;
+    padding-left: 5%;
+    border-radius: 6%;
+}
+#calcbtns
+{
+    position: inherit;
+    left:10px;
+    top: 23%;  
+}
+#calcbtns>button
+{
+    height:50px;
+    width: 50px;
+    border-radius:100px;
+    border: none;
+    margin: 9px ;
+    background-color:grey;
+    color:white;
+    font-size: 20px;
+}
+#btns
+{
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+body
+{
+    background-color: darkgrey;
+
+}
+#bmi
+{
+    height:300px;
+    border:2px solid black;
+    width: 400px;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    background-color: white;
+    display: none;
+    transition: height 1s, width 1s;
+}
+#h3
+{
+    position:inherit ;
+    padding:3% 20% 3% 30%; 
+    color: rgb(231, 74, 231);
+}
+#ips
+{
+    position: inherit;
+    top: 20%;
+    left: 10%;
+}
+#ips>input{
+    margin:5% 0% 0%;
+    width: 180%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid purple;
+}
+#ips>p{
+    margin:10% 0 2% 80%;
+}
+#ips>button
+{
+    position: inherit;
+    left: 80%;
+    top:110%;
+    border-radius: 10px;
+    border: none;
+    padding:10px;
+}
+#res
+{
+    position: inherit;
+    left: 40%;
+    top: 40%;
+}
+#btns>*
+{
+    padding: 10px;
+    border-radius: 7%;
+    border: none;
+
+
+}

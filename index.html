@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <div id="btns">
+        <button id="calc" onclick="showcalc()">calculator</button>
+        <button id="bmicalc" onclick="showbmicalc()">BMI calculator</button>
+    </div>
+    <div id="template" class="public">
+        <input id="ip" type="text" >
+        <div id="calcbtns">
+            <button  onclick="add(event)" >1</button>
+            <button class="btn" onclick="add(event)">2</button>
+            <button class="btn" onclick="add(event)">3</button>
+            <button class="btn" onclick="add(event)">4</button>
+            <button class="btn" onclick="add(event)">5</button>
+            <button class="btn" onclick="add(event)">6</button>
+            <button class="btn" onclick="add(event)">7</button>
+            <button class="btn" onclick="add(event)">8</button>
+            <button class="btn" onclick="add(event)">9</button>
+            <button class="btn" onclick="add(event)">0</button>
+            <button style="background-color: purple; " onclick="operation(event)">+</button>
+            <button style="background-color: purple; " onclick="operation(event)">-</button>
+            <button style="background-color: purple; " onclick="operation(event)">*</button>
+            <button style="background-color: purple; " onclick="operation(event)">/</button>
+            <button style="background-color: purple; " onclick="equal(event)">=</button>
+            <button style="background-color: purple; " onclick="add(event)">c</button>
+    </div>
+    </div>
+    <div id="bmi">
+        <h3 id="h3">BMI calculator</h3>
+        <div id="ips">
+        <p >Height</p>
+        <input id="ip1" type="number" placeholder="height in cm">
+        <br>
+        <p>Weight</p>
+        <input id="ip2" type="number" placeholder="weight in kg">
+        <br>
+        <button onclick="values()">Calculate</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
